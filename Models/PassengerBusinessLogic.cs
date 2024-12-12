@@ -93,6 +93,7 @@ namespace Q1.Models
             cmd.Parameters.Add(param);
             con.Open();
             cmd.ExecuteNonQuery();
+            System.Diagnostics.Debug.WriteLine("texst");
             return param.Value.ToString();
         }
 
