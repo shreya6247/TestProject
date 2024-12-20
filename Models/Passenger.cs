@@ -9,7 +9,7 @@ namespace Q1.Models
     public class Passenger
     {
         public int Id { get; set; }
-        [Required]
+        
         public string Name { get; set; }
         [Required]
         public string Address { get; set; }
